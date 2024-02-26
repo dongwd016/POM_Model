@@ -16,13 +16,13 @@
 | ${\rm MW}$ | kg/mol | polymer molecular weight |
 | $A_\beta$ | s<sup>-1</sup> | intrinsic pre-exponential factor for $\beta$-scission |
 | $E_a$ | J/mol | intrinsic activation energy of beta scission |
+| $\gamma$ | | correction factor to the pre-exponential factor |
 | $\Delta_rH$ | J/kg | heat of decomposition reaction |
 | $\Delta h_{\rm LH}$ | J/kg | latent heat of polymer fusion |
 | $R_u$ | J/mol$`\cdot`$K | universal gas constant |
 | $T_S$ | K | temperature at liquid-gas interface |
 | $T_{\rm melt}$ | K | polymer melting point (temperature at solid-liquid interface) |
 | $\dot{Q}_0''$ | J/(kg m^2) | heat flux at liquid-gas interface |
-| $\gamma$ | temperature-dependent correction to the pre-exponential factor |
 | $r_b$ | m/s | regression rate of the molten polymer surface |
 
 ## Version 0.9 Assumptions
