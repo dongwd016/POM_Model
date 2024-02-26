@@ -21,7 +21,7 @@
 - $T_S$: surface temperature at liquid-gas interface, K;
 - $T_{\rm melt}$: polymer melting point (temperature at solid-liquid interface), K;
 - $\gamma$: temperature-dependent correction to the pre-exponential factor.
-- $r_b$: regression rate of the molten surface, m/s.\
+- $r_b$: regression rate of the molten surface, m/s.
 
 ## Version 0.9 Assumptions
 
