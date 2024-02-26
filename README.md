@@ -7,8 +7,6 @@ Profile variables:
 - $T$: temperature, K;
 - $x$: depth, m.
 
-Parameters:
-
 - $k$: liquid phase thermal conductivity, W/m$`\cdot`$K;
 - $\rho$: liquid phase density, kg/m<sup>3</sup>;
 - ${\rm MW}_0$: POM monomer (CH<sub>2</sub>O) molecular weight;
@@ -22,6 +20,18 @@ Parameters:
 - $T_{\rm melt}$: POM melting point, temperature at solid-liquid interface, K;
 - $\gamma$: pre-exponential factor temperature-dependent correction.
 - $r_b$: regression rate of the top surface, m/s.
+
+## Schematic
+
+<img src="img/polymerschematic.png" width="500"/>
+
+## Assumptions
+
+- Uniform in $y$, $z$ directions. 1D steady state problem.
+- Constant $k$, MW, $\rho$, $\gamma$.
+- Chemical reaction only occurs in the liquid phase.
+- Regression is only due to the release of CH<sub>2</sub>O. No POM vaporization.
+- The initiation reaction  is neglected [CH<sub>3</sub>COO(CH<sub>2</sub>O)$`_n`$COCH<sub>3</sub> $\rightarrow$ (CH<sub>2</sub>O)$`_n`$].
   
 ## Version 0.9
 
@@ -52,7 +62,7 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 \end{gathered}
 ```
 
-### Parameters (including source)
+## Parameters (including source)
 
 - $k$ = 0.14 W/m$`\cdot`$K[^1]
 - $\rho$ = 1.2 g/cm<sup>3</sup>[^2]
@@ -66,23 +76,11 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 - $\gamma$ = 1
 - $R_u$ = 8.314 J/mol$`\cdot`$K
 
-### Gas phase kinetics model
+## Gas phase kinetics model
 
 In "mechanism" folder: 13 species, 47 reactions. FFCM-2 formaldehyde sub-model.
 - *.inp, *.dat: Chemkin format files
 - *.cti, *.yaml: Cantera format files
-
-### Schematic
-
-<img src="img/polymerschematic.png" width="500"/>
-
-### Assumptions
-
-- Uniform in $y$, $z$ directions. 1D steady state problem.
-- Constant $k$, MW, $\rho$, $\gamma$.
-- Chemical reaction only occurs in the liquid phase.
-- Regression is only due to the release of CH<sub>2</sub>O. No POM vaporization.
-- The initiation reaction  is neglected [CH<sub>3</sub>COO(CH<sub>2</sub>O)$`_n`$COCH<sub>3</sub> $\rightarrow$ (CH<sub>2</sub>O)$`_n`$].
 
 ## Contributors
 Wendi Dong, Nikolaos Kateris, Nicholas J. Montes, Hai Wang
