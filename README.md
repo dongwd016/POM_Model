@@ -94,7 +94,7 @@ Mechanical Engineering Department, Stanford University, Stanford, California 943
 
 [^1]: S. Luftl, P. Visakh, S. Chandran, Polyoxymethylene handbook: structure, properties, applications and their nanocomposites, John Wiley & Sons, 2014.
 [^2]: H. W. Starkweather Jr., G. A. Jones, P. Zoller, The pressure-volume-temperature relationship and the heat of fusion of polyoxymethylene, Journal of Polymer Science Part B: Polymer Physics 26 (2) (1988) 257–266.
-[^3]: Estimated, ranging from 1x$10<sup>4</sup>$ to $2x$10<sup>5</sup>$ g/mol.
+[^3]: Estimated, ranging from 1x10<sup>4</sup> to 2x10<sup>5</sup> g/mol.
 [^4]: L.-S. Tran, J. Pieper, H.-H. Carstensen, H. Zhao, I. Graf, Y. Ju, F. Qi, K. Kohse-Hoinghaus, Experimental and kinetic modeling study of diethylether flames, Proceedings of the Combustion Institute 36 (1) (2017) 1165–1173.
 [^5]: G. Berkowicz, T. M. Majka, W.  ̇Zukowski, The pyrolysis and combustion of polyoxymethylene in a fluidised bed with the possibility of incorporating CO<sub>2</sub>, Energy Conversion and Management 214 (2020) 112888.
 [^6]: M. Day, J. D. Cooney, C. Touchette-Barrette, S. E. Sheehan, Pyrolysis of mixed plastics used in the electronics industry, Journal of Analytical and Applied Pyrolysis 52 (2) (1999) 199–224. 
