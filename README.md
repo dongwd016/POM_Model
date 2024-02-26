@@ -79,6 +79,19 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 - $\gamma$ = 1
 - $R_u$ = 8.314 J/mol$`\cdot`$K
 
+#### Sample regression rate values:
+| $T_S$ (K) | $r_b$ (m/s) |
+| :--: |  :--: | 
+| 800 | ??? |
+| 700 | ??? |
+| 600 | ??? |
+
+| $\dot{Q}_0''$ (J/kg$`\cdot`$m<sup>2</sup>) | $r_b$ (m/s) |
+| :--: |  :--: | 
+| ??? | ??? |
+| ??? | ??? |
+| ??? | ??? |
+
 #### Gas phase kinetics model
 
 In "mechanism" folder: 13 species, 47 reactions. FFCM-2 [^14] formaldehyde sub-model.
