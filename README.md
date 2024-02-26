@@ -5,7 +5,7 @@
 <img src="img/polymerschematic.png" width="500"/>
 
 ## Nomenclature
-- $T$: temperature, K;
+- $T$: \tab temperature, K;
 - $x$: depth, m;
 - $k$: liquid-phase (molten-layer) thermal conductivity, W/m$`\cdot`$K;
 - $\rho$: liquid-phase density, kg/m<sup>3</sup>;
