@@ -1,8 +1,8 @@
-# A One-Dimensional Steady-State Model for Polymer Decomposition (## V0.9)
+# A One-Dimensional Steady-State Model for Polymer Decomposition
 
-An analytical steady state model for calculating polymer surface regression rate at a given heat flux or surface temperature.
+## Version 0.9
 
-Regression rate for given heat flux:
+An analytical steady state model for calculating polymer surface regression rate at a given heat flux or surface temperature. Regression rate for given heat flux:
 
 ```math
 r_b=\frac{\dot{Q}_0''}{\rho(\Delta h_{\rm LH}+\frac{\Delta_rH}{{\rm MW}_0})}.
