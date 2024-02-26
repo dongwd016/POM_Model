@@ -6,9 +6,10 @@
 
 ## Nomenclature
 
-| $T$: | temperature, K; |
-| :--: |  :--: |
-| $x$: | depth, m |
+| Symbol | Units | Description |
+| :--: |  :--: | :--: |
+| $T$: | K | temperature |
+| $x$: | m | depth |
 | $k$: | liquid-phase (molten-layer) thermal conductivity, W/m$`\cdot`$K; |
 - $\rho$: liquid-phase density, kg/m<sup>3</sup>;
 - ${\rm MW}_0$: monomer molecular weight, kg/mol;
