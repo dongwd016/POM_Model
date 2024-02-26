@@ -1,6 +1,6 @@
 # A One-Dimensional Steady-State Model for Polymer Decomposition into Monomer
 
-## Schematic
+## Schematic (shown for polyoxymethylene as example)
 
 <img src="img/polymerschematic.png" width="500"/>
 
