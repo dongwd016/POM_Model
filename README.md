@@ -8,22 +8,22 @@
 
 | Symbol | Units | Description |
 | :--: |  :--: | :--: |
-| $T$: | K | temperature |
-| $x$: | m | depth |
-| $k$: | liquid-phase (molten-layer) thermal conductivity, W/m$`\cdot`$K; |
-- $\rho$: liquid-phase density, kg/m<sup>3</sup>;
-- ${\rm MW}_0$: monomer molecular weight, kg/mol;
-- ${\rm MW}$: polymer molecular weight, kg/mol;
-- $A_\beta$: intrinsic pre-exponential factor for $\beta$-scission, s<sup>-1</sup>;
-- $E_a$: intrinsic activation energy, J/mol;
-- $\Delta_rH$: heat of decomposition reaction, J/mol;
-- $\Delta h_{\rm LH}$: latent heat of polymer fusion, J/kg;
-- $R_u$: universal gas constant, J/mol$`\cdot`$K;
-- $T_S$: surface temperature at liquid-gas interface, K;
-- $T_{\rm melt}$: polymer melting point (temperature at solid-liquid interface), K;
-- $\dot{Q}_0''$: Heat flux at liquid-gas interface, J/(kg m^2);
-- $\gamma$: temperature-dependent correction to the pre-exponential factor.
-- $r_b$: regression rate of the molten surface, m/s.
+| $T$ | K | temperature |
+| $x$ | m | depth |
+| $k$ | W/m$`\cdot`$K | liquid-phase (molten-layer) thermal conductivity |
+| $\rho$ | kg/m<sup>3</sup> | liquid-phase density |
+| ${\rm MW}_0$ | kg/mol | monomer molecular weight |
+| ${\rm MW}$ | kg/mol | polymer molecular weight |
+| $A_\beta$ | s<sup>-1</sup> | intrinsic pre-exponential factor for $\beta$-scission |
+| $E_a$ | J/mol | intrinsic activation energy of beta scission |
+| $\Delta_rH$ | J/kg | heat of decomposition reaction |
+| $\Delta h_{\rm LH}$ | J/kg | latent heat of polymer fusion |
+| $R_u$ | J/mol$`\cdot`$K | universal gas constant |
+| $T_S$ | K | temperature at liquid-gas interface |
+| $T_{\rm melt}$ | K | polymer melting point (temperature at solid-liquid interface) |
+| $\dot{Q}_0''$ | J/(kg m^2) | heat flux at liquid-gas interface |
+| $\gamma$ | temperature-dependent correction to the pre-exponential factor |
+| $r_b$ | m/s | regression rate of the molten polymer surface |
 
 ## Version 0.9 Assumptions
 
