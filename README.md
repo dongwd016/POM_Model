@@ -1,5 +1,9 @@
 # A One-Dimensional Steady-State Model for Polymer Decomposition into Monomer
 
+## Schematic
+
+<img src="img/polymerschematic.png" width="500"/>
+
 ## Nomenclature
 
 - $T$: temperature, K;
@@ -17,21 +21,17 @@
 - $T_S$: surface temperature at liquid-gas interface, K;
 - $T_{\rm melt}$: polymer melting point (temperature at solid-liquid interface), K;
 - $\gamma$: temperature-dependent correction to the pre-exponential factor.
-- $r_b$: regression rate of the molten surface, m/s.
+- $r_b$: regression rate of the molten surface, m/s.\
 
-## Schematic
+## Version 0.9 Assumptions
 
-<img src="img/polymerschematic.png" width="500"/>
-
-## Assumptions
-
-- Uniform in $y$, $z$ directions. 1D steady state problem.
+- Uniform in $y$, $z$ directions. 1D steady state treatment.
+- Decomposition occurs in liquid phase only.
+- Regression is due to beta-scission to release monomer. 
+- Radical initiation reaction is neglected
 - Constant $k$, MW, $\rho$, $\gamma$.
-- Chemical reaction only occurs in the liquid phase.
-- Regression is only due to the release of CH<sub>2</sub>O. No POM vaporization.
-- The initiation reaction  is neglected [CH<sub>3</sub>COO(CH<sub>2</sub>O)$`_n`$COCH<sub>3</sub> $\rightarrow$ (CH<sub>2</sub>O)$`_n`$].
   
-## Version 0.9 Model
+## Model
 
 An analytical steady state model for calculating polymer surface regression rate at a given heat flux or surface temperature. 
 
