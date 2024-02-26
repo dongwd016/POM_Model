@@ -75,7 +75,7 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 
 ## Gas phase kinetics model
 
-In "mechanism" folder: 13 species, 47 reactions. FFCM-2 formaldehyde sub-model.
+In "mechanism" folder: 13 species, 47 reactions. FFCM-2 [^14] formaldehyde sub-model.
 - *.inp, *.dat: Chemkin format files
 - *.cti, *.yaml: Cantera format files
 
@@ -99,3 +99,6 @@ Mechanical Engineering Department, Stanford University, Stanford, California 943
 [^11]: **Paper.** D. Czarnecka-Komorowska, T. Sterzynski, Effect of polyhedral oligomeric silsesquioxane on the melting, structure, and mechanical behavior of polyoxymethylene, Polymers 10 (2) (2018) 203.
 [^12]: **Product report.** DURACON® POM report. https://www.polyplastics.com/en/support/mold/duracon/pom04c.html#:~:text=The%20melting%20point%20of%20DURACON,cylinder%20temperature%20(front%20section).
 [^13]: **Paper.** K. Pielichowska, The influence of molecular weight on the properties of polyacetal/hydroxyapatite nanocomposites. Part 1. Microstructural analysis and phase transition studies, Journal of Polymer Research 19 (2) (2012) 9775.
+[^14]: **Paper** Y. Zhang, W. Dong, L. Vandewalle, R. Xu, G.P. Smith and H. Wang, Foundational Fuel Chemistry Model Version 2.0 (FFCM-2), https://web.stanford.edu/group/haiwanglab/FFCM2, 2023.
+
+**Paper.** K. Pielichowska, The influence of molecular weight on the properties of polyacetal/hydroxyapatite nanocomposites. Part 1. Microstructural analysis and phase transition studies, Journal of Polymer Research 19 (2) (2012) 9775.
