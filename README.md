@@ -59,7 +59,7 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 \end{gathered}
 ```
 
-## Parameters (including source)
+## Parameter values for Polyoxymethylene (POM)
 
 - $k$ = 0.14 W/m$`\cdot`$K[^1]
 - $\rho$ = 1.2 g/cm<sup>3</sup>[^2]
