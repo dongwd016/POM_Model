@@ -1,4 +1,4 @@
-# A One-Dimensional Steady-State Model for Polymer Decomposition
+# A One-Dimensional Steady-State Model for Polymer Decomposition into Monomer
 
 ## Nomenclature
 
@@ -7,19 +7,19 @@ Profile variables:
 - $T$: temperature, K;
 - $x$: depth, m.
 
-- $k$: liquid phase thermal conductivity, W/m$`\cdot`$K;
-- $\rho$: liquid phase density, kg/m<sup>3</sup>;
-- ${\rm MW}_0$: POM monomer (CH<sub>2</sub>O) molecular weight;
-- ${\rm MW}$: POM molecular weight, kg/mol;
+- $k$: liquid-phase (molten-layer) thermal conductivity, W/m$`\cdot`$K;
+- $\rho$: liquid-phase density, kg/m<sup>3</sup>;
+- ${\rm MW}_0$: monomer molecular weight;
+- ${\rm MW}$: polymer molecular weight, kg/mol;
 - $A_\beta$: intrinsic pre-exponential factor for C$`-`$O $\beta$-scission, s<sup>-1</sup>;
-- $E_a$: activation energy for POM decomposition, J/mol;
-- $\Delta_rH$: heat of reaction, J/mol;
-- $\Delta h_{\rm LH}$: latent heat of POM fusion, J/kg;
+- $E_a$: intrinsic activation energy, J/mol;
+- $\Delta_rH$: heat of decomposition reaction, J/mol;
+- $\Delta h_{\rm LH}$: latent heat of polymer fusion, J/kg;
 - $R_u$: universal gas constant, J/mol$`\cdot`$K;
 - $T_S$: surface temperature at liquid-gas interface, K;
-- $T_{\rm melt}$: POM melting point, temperature at solid-liquid interface, K;
-- $\gamma$: pre-exponential factor temperature-dependent correction.
-- $r_b$: regression rate of the top surface, m/s.
+- $T_{\rm melt}$: polymer melting point (temperature at solid-liquid interface), K;
+- $\gamma$: temperature-dependent correction to the pre-exponential factor.
+- $r_b$: regression rate of the molten surface, m/s.
 
 ## Schematic
 
