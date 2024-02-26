@@ -67,15 +67,15 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 ##### Sample parameter values for Polyoxymethylene (POM)
 
 - Decomposition product: formaldehyde (CH<sub>2</sub>O)
-- $k$ = 0.14 W/m$`\cdot`$K [^1]
-- $\rho$ = 1.2 g/cm<sup>3</sup> [^2]
+- $k$ = 0.14 W/m$`\cdot`$K [^handbook]
+- $\rho$ = 1.2 g/cm<sup>3</sup> [^liquid_density]
 - ${\rm MW}_0$ = 30 g/mol
-- ${\rm MW}$ = 1$`\times 10^5`$ g/mol [^3]
-- $A_\beta$ = 1.8$`\times 10^{13}`$ s<sup>-1</sup> [^4]
-- $E_a$ = 30 kcal/mol [^5]
-- $\Delta_rH$ = 56 kJ/mol [^6]
-- $\Delta h_{\rm LH}$ = 150 J/g [^7]
-- $T_{\rm melt}$ = 438 K [^8][^9]
+- ${\rm MW}$ = 1$`\times 10^5`$ g/mol [^polymer_MW]
+- $A_\beta$ = 1.8$`\times 10^{13}`$ s<sup>-1</sup> [^DEE_mech]
+- $E_a$ = 30 kcal/mol [^BMZ2020]
+- $\Delta_rH$ = 56 kJ/mol [^NIST_GA]
+- $\Delta h_{\rm LH}$ = 150 J/g [^latent_heat]
+- $T_{\rm melt}$ = 438 K [^product_report][^P2012]
 - $\gamma$ = 1
 - $R_u$ = 8.314 J/mol$`\cdot`$K
 
@@ -96,7 +96,7 @@ Input: Liquid-gas interface heat flux $\dot{Q}_0''$:
 
 #### Gas phase kinetics model
 
-In "mechanism" folder: 13 species, 47 reactions. FFCM-2 [^10] formaldehyde sub-model.
+In "mechanism" folder: 13 species, 47 reactions. FFCM-2 [^FFCM2] formaldehyde sub-model.
 - *.inp, *.dat: Chemkin format files
 - *.cti, *.yaml: Cantera format files
 
@@ -107,13 +107,13 @@ Mechanical Engineering Department, Stanford University, Stanford, California 943
 
 ### References
 
-[^1]: S. Luftl, P. Visakh, S. Chandran, Polyoxymethylene handbook: structure, properties, applications and their nanocomposites, John Wiley & Sons, 2014.
-[^2]: H. W. Starkweather Jr., G. A. Jones, P. Zoller, The pressure-volume-temperature relationship and the heat of fusion of polyoxymethylene, Journal of Polymer Science Part B: Polymer Physics 26 (2) (1988) 257–266.
-[^3]: Estimated, ranging from 1x10<sup>4</sup> to 2x10<sup>5</sup> g/mol.
-[^4]: L.-S. Tran, J. Pieper, H.-H. Carstensen, H. Zhao, I. Graf, Y. Ju, F. Qi, K. Kohse-Hoinghaus, Experimental and kinetic modeling study of diethylether flames, Proceedings of the Combustion Institute 36 (1) (2017) 1165–1173.
-[^5]: G. Berkowicz, T. M. Majka, W.  ̇Zukowski, The pyrolysis and combustion of polyoxymethylene in a fluidised bed with the possibility of incorporating CO<sub>2</sub>, Energy Conversion and Management 214 (2020) 112888.
-[^6]: Group additivity calculation using NIST data.
-[^7]: D. Czarnecka-Komorowska, T. Sterzynski, Effect of polyhedral oligomeric silsesquioxane on the melting, structure, and mechanical behavior of polyoxymethylene, Polymers 10 (2) (2018) 203.
-[^8]: DURACON® POM report. https://www.polyplastics.com/en/support/mold/duracon/pom04c.html#:~:text=The%20melting%20point%20of%20DURACON,cylinder%20temperature%20(front%20section).
-[^9]: K. Pielichowska, The influence of molecular weight on the properties of polyacetal/hydroxyapatite nanocomposites. Part 1. Microstructural analysis and phase transition studies, Journal of Polymer Research 19 (2) (2012) 9775.
-[^10]: Y. Zhang, W. Dong, L. Vandewalle, R. Xu, G.P. Smith and H. Wang, Foundational Fuel Chemistry Model Version 2.0 (FFCM-2), https://web.stanford.edu/group/haiwanglab/FFCM2, 2023.
+[^handbook]: S. Luftl, P. Visakh, S. Chandran, Polyoxymethylene handbook: structure, properties, applications and their nanocomposites, John Wiley & Sons, 2014.
+[^liquid_density]: H. W. Starkweather Jr., G. A. Jones, P. Zoller, The pressure-volume-temperature relationship and the heat of fusion of polyoxymethylene, Journal of Polymer Science Part B: Polymer Physics 26 (2) (1988) 257–266.
+[^polymer_MW]: Estimated, ranging from 1x10<sup>4</sup> to 2x10<sup>5</sup> g/mol.
+[^DEE_mech]: L.-S. Tran, J. Pieper, H.-H. Carstensen, H. Zhao, I. Graf, Y. Ju, F. Qi, K. Kohse-Hoinghaus, Experimental and kinetic modeling study of diethylether flames, Proceedings of the Combustion Institute 36 (1) (2017) 1165–1173.
+[^BMZ2020]: G. Berkowicz, T. M. Majka, W.  ̇Zukowski, The pyrolysis and combustion of polyoxymethylene in a fluidised bed with the possibility of incorporating CO<sub>2</sub>, Energy Conversion and Management 214 (2020) 112888.
+[^NIST_GA]: Group additivity calculation using NIST data.
+[^latent_heat]: D. Czarnecka-Komorowska, T. Sterzynski, Effect of polyhedral oligomeric silsesquioxane on the melting, structure, and mechanical behavior of polyoxymethylene, Polymers 10 (2) (2018) 203.
+[^product_report]: DURACON® POM report. https://www.polyplastics.com/en/support/mold/duracon/pom04c.html#:~:text=The%20melting%20point%20of%20DURACON,cylinder%20temperature%20(front%20section).
+[^P2012]: K. Pielichowska, The influence of molecular weight on the properties of polyacetal/hydroxyapatite nanocomposites. Part 1. Microstructural analysis and phase transition studies, Journal of Polymer Research 19 (2) (2012) 9775.
+[^FFCM2]: Y. Zhang, W. Dong, L. Vandewalle, R. Xu, G.P. Smith and H. Wang, Foundational Fuel Chemistry Model Version 2.0 (FFCM-2), https://web.stanford.edu/group/haiwanglab/FFCM2, 2023.
