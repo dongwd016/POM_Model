@@ -33,7 +33,7 @@ Profile variables:
 - Regression is only due to the release of CH<sub>2</sub>O. No POM vaporization.
 - The initiation reaction  is neglected [CH<sub>3</sub>COO(CH<sub>2</sub>O)$`_n`$COCH<sub>3</sub> $\rightarrow$ (CH<sub>2</sub>O)$`_n`$].
   
-## Version 0.9
+## Version 0.9 Model
 
 An analytical steady state model for calculating polymer surface regression rate at a given heat flux or surface temperature. 
 
