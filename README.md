@@ -1,10 +1,10 @@
-# A One-Dimensional Steady-State Model for Polymer Decomposition into Vapor-Phase Monomer
+## A One-Dimensional Steady-State Model for Polymer Decomposition into Vapor-Phase Monomer
 
-## Schematic (shown for polyoxymethylene as example)
+### Schematic (shown for polyoxymethylene as example)
 
 <img src="img/polymerschematic.png" width="500"/>
 
-## Nomenclature
+### Nomenclature
 
 | Symbol | Units | Description |
 | :--: |  :--: | :--: |
@@ -25,7 +25,9 @@
 | $\dot{Q}_0''$ | J/kg$`\cdot`$m<sup>2</sup> | heat flux at liquid-gas interface |
 | $r_b$ | m/s | regression rate of the molten polymer surface |
 
-## Version 0.9 Assumptions
+### Version 0.9 
+
+#### Assumptions
 
 - Uniform in $y$, $z$ directions. 1D steady state treatment.
 - Decomposition occurs in liquid phase only.
@@ -33,7 +35,7 @@
 - Radical initiation reaction is neglected
 - Constant $k$, MW, $\rho$, $\gamma$.
   
-## Model
+#### Model
 
 An analytical steady-state model for calculating polymer surface regression rate at a given heat flux or surface temperature. 
 
@@ -62,7 +64,7 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 \end{gathered}
 ```
 
-## Parameter values for Polyoxymethylene (POM)
+#### Sample parameter values for Polyoxymethylene (POM)
 
 - Decomposition product: formaldehyde (CH$_2$O) 
 - $k$ = 0.14 W/m$`\cdot`$K[^1]
@@ -77,18 +79,18 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 - $\gamma$ = 1
 - $R_u$ = 8.314 J/mol$`\cdot`$K
 
-## Gas phase kinetics model
+#### Gas phase kinetics model
 
 In "mechanism" folder: 13 species, 47 reactions. FFCM-2 [^14] formaldehyde sub-model.
 - *.inp, *.dat: Chemkin format files
 - *.cti, *.yaml: Cantera format files
 
-## Contributors
+### Contributors
 Wendi Dong, Nikolaos Kateris, Nicholas J. Montes, Hai Wang
 
 Mechanical Engineering Department, Stanford University, Stanford, California 94305, United States
 
-## References
+### References
 
 [^1]: S. Luftl, P. Visakh, S. Chandran, Polyoxymethylene handbook: structure, properties, applications and their nanocomposites, John Wiley & Sons, 2014.
 [^2]: H. W. Starkweather Jr., G. A. Jones, P. Zoller, The pressure-volume-temperature relationship and the heat of fusion of polyoxymethylene, Journal of Polymer Science Part B: Polymer Physics 26 (2) (1988) 257–266.
