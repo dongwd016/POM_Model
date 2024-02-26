@@ -67,15 +67,15 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 #### Sample parameter values for Polyoxymethylene (POM)
 
 - Decomposition product: formaldehyde (CH$_2$O) 
-- $k$ = 0.14 W/m$`\cdot`$K[^1]
-- $\rho$ = 1.2 g/cm<sup>3</sup>[^2]
+- $k$ = 0.14 W/m$`\cdot`$K [^1]
+- $\rho$ = 1.2 g/cm<sup>3</sup> [^2]
 - ${\rm MW}_0$ = 30 g/mol
-- ${\rm MW}$ = 1$`\times 10^5`$ g/mol[^3]
-- $A_\beta$ = 1.8$`\times 10^{13}`$ s<sup>-1</sup>[^4]
-- $E_a$ = 30 kcal/mol[^5][^6][^7][^8][^9]
-- $\Delta_rH$ = 56 kJ/mol[^10]
-- $\Delta h_{\rm LH}$ = 150 J/g[^11]
-- $T_{\rm melt}$ = 438 K[^12][^13]
+- ${\rm MW}$ = 1$`\times 10^5`$ g/mol [^3]
+- $A_\beta$ = 1.8$`\times 10^{13}`$ s<sup>-1</sup> [^4]
+- $E_a$ = 30 kcal/mol [^5][^6][^7][^8][^9]
+- $\Delta_rH$ = 56 kJ/mol [^10]
+- $\Delta h_{\rm LH}$ = 150 J/g [^11]
+- $T_{\rm melt}$ = 438 K [^12][^13]
 - $\gamma$ = 1
 - $R_u$ = 8.314 J/mol$`\cdot`$K
 
