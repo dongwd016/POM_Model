@@ -1,4 +1,4 @@
-# A One-Dimensional Steady-State Model for Polymer Decomposition into Monomer
+# A One-Dimensional Steady-State Model for Polymer Decomposition into Vapor-Phase Monomer
 
 ## Schematic (shown for polyoxymethylene as example)
 
