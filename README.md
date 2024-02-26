@@ -25,19 +25,19 @@
 | $\dot{Q}_0''$ | J/s$`\cdot`$m<sup>2</sup> | heat flux at liquid-gas interface |
 | $r_b$ | m/s | regression rate of the molten polymer surface |
 
-### Version 0.9 
+### Version 0.9
 
 #### Assumptions
 
 - Uniform in $y$, $z$ directions. 1D steady state treatment.
 - Decomposition occurs in liquid phase only.
-- Regression is due to beta-scission to release monomer. 
+- Regression is due to beta-scission to release monomer.
 - Radical initiation reaction is neglected
 - Constant $k$, MW, $\rho$, $\gamma$.
   
 #### Model
 
-An analytical steady-state model for calculating polymer surface regression rate at a given heat flux or surface temperature. 
+An analytical steady-state model for calculating polymer surface regression rate at a given heat flux or surface temperature.
 
 1) Regression rate for given heat flux:
 
@@ -83,16 +83,16 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 Input: Liquid-gas interface temperature $T_S$:
 | $T_S$ (K) | $r_b$ (m/s) |
 | :--: |  :--: | 
-| 800 | ??? |
-| 700 | ??? |
-| 600 | ??? |
+| 800 | 5.34$`\times 10^{-4}`$ |
+| 700 | 1.22$`\times 10^{-4}`$ |
+| 600 | 1.75$`\times 10^{-5}`$ |
 
 Input: Liquid-gas interface heat flux $\dot{Q}_0''$:
-| $\dot{Q}_0''$ (J/kg$`\cdot`$m<sup>2</sup>) | $r_b$ (m/s) |
-| :--: |  :--: | 
-| ??? | ??? |
-| ??? | ??? |
-| ??? | ??? |
+| $\dot{Q}_0''$ (J/s$`\cdot`$m<sup>2</sup>) | $r_b$ (m/s) |
+| :--: |  :--: |
+| 3$`\times 10^5`$ | 4.13$`\times 10^{-5}`$ |
+| 2$`\times 10^5`$ | 8.26$`\times 10^{-5}`$ |
+| 1$`\times 10^5`$ | 1.24$`\times 10^{-4}`$ |
 
 #### Gas phase kinetics model
 
