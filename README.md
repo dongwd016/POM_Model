@@ -2,13 +2,15 @@
 
 ## Version 0.9
 
-An analytical steady state model for calculating polymer surface regression rate at a given heat flux or surface temperature. Regression rate for given heat flux:
+An analytical steady state model for calculating polymer surface regression rate at a given heat flux or surface temperature. 
+
+1) Regression rate for given heat flux:
 
 ```math
 r_b=\frac{\dot{Q}_0''}{\rho(\Delta h_{\rm LH}+\frac{\Delta_rH}{{\rm MW}_0})}.
 ```
 
-Regression rate for given surface temperature:
+2) Regression rate for given surface temperature:
 
 ```math
 r_b=\frac{kE_a}{\Delta h_{\rm LH}\rho R_u}\sqrt{\frac{2\tilde{A}[g(\tilde{\theta}_S)-g(\tilde{\theta}_{\rm melt})]}{(1+\tilde{h})^2-1}},
