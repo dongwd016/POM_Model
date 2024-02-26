@@ -1,8 +1,6 @@
-# POM Model
+# A One-Dimensional Steady-State Model for Polymer Decomposition (## V0.9)
 
-An analytical steady state model for calculating polyoxymethylene (POM) regression rate for a given heat flux or surface temperature.
-
-## V0.9
+An analytical steady state model for calculating polymer surface regression rate at a given heat flux or surface temperature.
 
 Regression rate for given heat flux:
 
