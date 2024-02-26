@@ -32,7 +32,7 @@
   
 ## Model
 
-An analytical steady state model for calculating polymer surface regression rate at a given heat flux or surface temperature. 
+An analytical steady-state model for calculating polymer surface regression rate at a given heat flux or surface temperature. 
 
 1) Regression rate for given heat flux:
 
