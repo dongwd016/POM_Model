@@ -11,7 +11,7 @@
 
 - $k$: liquid-phase (molten-layer) thermal conductivity, W/m$`\cdot`$K;
 - $\rho$: liquid-phase density, kg/m<sup>3</sup>;
-- ${\rm MW}_0$: monomer molecular weight;
+- ${\rm MW}_0$: monomer molecular weight, kg/mol;
 - ${\rm MW}$: polymer molecular weight, kg/mol;
 - $A_\beta$: intrinsic pre-exponential factor for $\beta$-scission, s<sup>-1</sup>;
 - $E_a$: intrinsic activation energy, J/mol;
