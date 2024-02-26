@@ -10,7 +10,7 @@
 | :--: |  :--: | :--: |
 | $T$ | K | temperature |
 | $x$ | m | depth |
-| $k$ | W/m$`\cdot`$K | liquid-phase (molten-layer) thermal conductivity |
+| $k$ | W/(m$`\cdot`$K) | liquid-phase (molten-layer) thermal conductivity |
 | $\rho$ | kg/m<sup>3</sup> | liquid-phase density |
 | ${\rm MW}_0$ | kg/mol | monomer molecular weight |
 | ${\rm MW}$ | kg/mol | polymer molecular weight |
@@ -19,10 +19,10 @@
 | $\gamma$ | | correction factor to the pre-exponential factor |
 | $\Delta_rH$ | J/kg | heat of decomposition reaction |
 | $\Delta h_{\rm LH}$ | J/kg | latent heat of polymer fusion |
-| $R_u$ | J/mol$`\cdot`$K | universal gas constant |
+| $R_u$ | J/(mol$`\cdot`$K) | universal gas constant |
 | $T_S$ | K | temperature at liquid-gas interface |
 | $T_{\rm melt}$ | K | polymer melting point (temperature at solid-liquid interface) |
-| $\dot{Q}_0''$ | J/s$`\cdot`$m<sup>2</sup> | heat flux at liquid-gas interface |
+| $\dot{Q}_0''$ | J/(s$`\cdot`$m<sup>2</sup>) | heat flux at liquid-gas interface |
 | $r_b$ | m/s | regression rate of the molten polymer surface |
 
 ### Version 0.9
@@ -88,7 +88,7 @@ Input: Liquid-gas interface temperature $T_S$:
 | 600 | 1.75$`\times 10^{-5}`$ |
 
 Input: Liquid-gas interface heat flux $\dot{Q}_0''$:
-| $\dot{Q}_0''$ (J/s$`\cdot`$m<sup>2</sup>) | $r_b$ (m/s) |
+| $\dot{Q}_0''$ (J/(s$`\cdot`$m<sup>2</sup>)) | $r_b$ (m/s) |
 | :--: |  :--: |
 | 3$`\times 10^5`$ | 4.13$`\times 10^{-5}`$ |
 | 2$`\times 10^5`$ | 8.26$`\times 10^{-5}`$ |
@@ -101,7 +101,7 @@ In "mechanism" folder: 13 species, 47 reactions. FFCM-2 [^10] formaldehyde sub-m
 - *.cti, *.yaml: Cantera format files
 
 ### Contributors
-Wendi Dong, Nikolaos Kateris, Nicholas J. Montes, Hai Wang
+Wendi Dong, Nikolaos Kateris, Nicholas J. Montes, Amitesh S. Jayaraman, Hai Wang
 
 Mechanical Engineering Department, Stanford University, Stanford, California 94305, United States
 
