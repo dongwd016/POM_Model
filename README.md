@@ -66,7 +66,7 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 
 ##### Sample parameter values for Polyoxymethylene (POM)
 
-- Decomposition product: formaldehyde (CH$`_2`$O)
+- Decomposition product: formaldehyde (CH<sub>2</sub>O)
 - $k$ = 0.14 W/m$`\cdot`$K [^1]
 - $\rho$ = 1.2 g/cm<sup>3</sup> [^2]
 - ${\rm MW}_0$ = 30 g/mol
