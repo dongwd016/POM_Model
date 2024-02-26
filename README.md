@@ -18,7 +18,7 @@
 - $R_u$: universal gas constant, J/mol$`\cdot`$K;
 - $T_S$: surface temperature at liquid-gas interface, K;
 - $T_{\rm melt}$: polymer melting point (temperature at solid-liquid interface), K;
-- \dot{Q}_0'': Heat flux at liquid-gas interface, J/(kg m^2);
+- $\dot{Q}_0''$: Heat flux at liquid-gas interface, J/(kg m^2);
 - $\gamma$: temperature-dependent correction to the pre-exponential factor.
 - $r_b$: regression rate of the molten surface, m/s.
 
