@@ -32,7 +32,7 @@
 - Uniform in $y$, $z$ directions. 1D steady state treatment.
 - Decomposition occurs in liquid phase only.
 - Regression is due to beta-scission to release monomer.
-- Radical initiation reaction is neglected
+- Radical initiation reaction is neglected.
 - Constant $k$, MW, $\rho$, $\gamma$.
   
 #### Model
