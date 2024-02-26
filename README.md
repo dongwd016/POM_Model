@@ -3,7 +3,7 @@
 ## Nomenclature
 
 - $T$: temperature, K;
-- $x$: depth, m;\\
+- $x$: depth, m;
 
 - $k$: liquid-phase (molten-layer) thermal conductivity, W/m$`\cdot`$K;
 - $\rho$: liquid-phase density, kg/m<sup>3</sup>;
