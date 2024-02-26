@@ -13,7 +13,7 @@
 - $\rho$: liquid-phase density, kg/m<sup>3</sup>;
 - ${\rm MW}_0$: monomer molecular weight;
 - ${\rm MW}$: polymer molecular weight, kg/mol;
-- $A_\beta$: intrinsic pre-exponential factor for C$`-`$O $\beta$-scission, s<sup>-1</sup>;
+- $A_\beta$: intrinsic pre-exponential factor for $\beta$-scission, s<sup>-1</sup>;
 - $E_a$: intrinsic activation energy, J/mol;
 - $\Delta_rH$: heat of decomposition reaction, J/mol;
 - $\Delta h_{\rm LH}$: latent heat of polymer fusion, J/kg;
