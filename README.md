@@ -64,7 +64,7 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 \end{gathered}
 ```
 
-#### Sample parameter values for Polyoxymethylene (POM)
+##### Sample parameter values for Polyoxymethylene (POM)
 
 - Decomposition product: formaldehyde (CH$_2$O) 
 - $k$ = 0.14 W/m$`\cdot`$K [^1]
@@ -79,13 +79,15 @@ g(u)={\rm Ei}\left(-\frac{1}{u}\right)+u\exp\left(-\frac{1}{u}\right),\\
 - $\gamma$ = 1
 - $R_u$ = 8.314 J/mol$`\cdot`$K
 
-#### Sample regression rate values:
+##### Sample regression rate values
+Input: Liquid-gas interface temperature $T_S$:
 | $T_S$ (K) | $r_b$ (m/s) |
 | :--: |  :--: | 
 | 800 | ??? |
 | 700 | ??? |
 | 600 | ??? |
 
+Input: Liquid-gas interface heat flux $\dot{Q}_0''$:
 | $\dot{Q}_0''$ (J/kg$`\cdot`$m<sup>2</sup>) | $r_b$ (m/s) |
 | :--: |  :--: | 
 | ??? | ??? |
