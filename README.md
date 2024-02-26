@@ -22,7 +22,7 @@
 | $R_u$ | J/mol$`\cdot`$K | universal gas constant |
 | $T_S$ | K | temperature at liquid-gas interface |
 | $T_{\rm melt}$ | K | polymer melting point (temperature at solid-liquid interface) |
-| $\dot{Q}_0''$ | J/(kg`\cdot`m<sup>2</sup> | heat flux at liquid-gas interface |
+| $\dot{Q}_0''$ | J/kg$`\cdot`$m<sup>2</sup> | heat flux at liquid-gas interface |
 | $r_b$ | m/s | regression rate of the molten polymer surface |
 
 ## Version 0.9 Assumptions
